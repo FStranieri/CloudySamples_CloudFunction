@@ -3,7 +3,7 @@ const clouddb = require('@agconnect/database-server/dist/index.js');
 const UserMessage = require('./messages.js');
 const User = require('./users.js');
 const FullMessage = require('./full_message.js');
-const credentialPath = "/dcache/layer/func/resource/agc-apiclient-926758088713727104-7115771071712602665.json";
+const credentialPath = "/dcache/layer/func/resource/agc-apiclient-xxx-xxx.json";
 var agcClient = null;
 
 module.exports = class CloudDBZoneWrapper {
